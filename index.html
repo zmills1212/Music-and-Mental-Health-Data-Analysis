@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+     <h1>Loan Approval Prediction</h1>
+     <form action="{{ url_for('predict')}}" method="post">
+         <input type='text' name="age" placeholder="age" required="required" />
+         <input type='text' name="anaemia" placeholder="anaemia" required="required" />
+         <input type='text' name="creatinine_phosphokinase" placeholder="creatinine_phosphokinase" required="required" />
+         <input type='text' name="diabetes" placeholder="diabetes" required="required" />
+         <input type='text' name="ejection_fraction" placeholder="ejection_fraction" required="required" />
+         <input type='text' name="high_blood_pressure" placeholder="high_blood_pressure" required="required" />
+         <input type='text' name="platelets	" placeholder="platelets	" required="required" />
+         <input type='text' name="serum_creatinine" placeholder="serum_creatinine" required="required" />
+         <input type='text' name="serum_sodium" placeholder="serum_sodium" required="required" />
+         <input type='text' name="sex" placeholder="sex" required="required" />
+         <input type='text' name="smoking" placeholder="smoking" required="required" />
+         <input type='text' name="time" placeholder="time" required="required" />
+         <button type="submit" class="btn btn-primary btn-block btn-large"> Predict</button>
+     </form>
+     <h2>{{pred_result}}</h2>
+</body>
+</html>
