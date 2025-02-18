@@ -58,10 +58,4 @@ This project demonstrates a clear link between music and mental well-being. The 
 2. Install the necessary libraries: 
 3. Open and run the Jupyter Notebook: `jupyter notebook music_mental_health.ipynb`
 
-## Acknowledgements
 
-* Thanks to the creators of the "MXMH Survey Results" dataset on Kaggle.
-
-## License (Optional)
-
-(Add a license if you wish, such as MIT License)
