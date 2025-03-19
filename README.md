@@ -26,10 +26,10 @@ This dataset includes information on:
 
 This analysis was conducted using Python and Jupyter Notebooks. The following steps were taken:
 
-1. **Data Cleaning and Preprocessing:**  (Mention any specific cleaning steps, like handling missing values or converting data types.)
-2. **Exploratory Data Analysis (EDA):**  (Describe the techniques used, e.g., descriptive statistics, visualizations like histograms, scatter plots, box plots, etc.)
-3. **Data Visualization:** (Mention the libraries used, e.g., Matplotlib, Seaborn, and the types of visualizations created.)
-4. **Analysis and Interpretation:** (Briefly summarize the key findings and insights gained from the analysis.)
+1. **Data Cleaning and Preprocessing:**  
+2. **Exploratory Data Analysis (EDA):** 
+3. **Data Visualization:** 
+4. **Analysis and Interpretation:** 
 
 ## Key Findings
 
